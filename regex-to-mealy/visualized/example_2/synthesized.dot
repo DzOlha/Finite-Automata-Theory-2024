@@ -1,0 +1,10 @@
+digraph MealyAutomate {
+rankdir=LR;
+size=8.5;
+    node [shape = point]; qinit;
+node [shape = circle];
+    qinit -> "{6}";
+    "{6}" -> "{5}" [label="y / [c]"];
+    "{1}" -> "{1}" [label="x / [a]"];
+    "{6}" -> "{1}" [label="x / [a]"];
+}
