@@ -1,0 +1,15 @@
+digraph MealyAutomate {
+rankdir=LR;
+size=8.5;
+    node [shape = point]; qinit;
+node [shape = circle];
+    qinit -> "{[{4}]}";
+"{[{3}]}" [shape = doublecircle];
+    "{[{1}]}" -> "{[{3}]}" [label="y "];
+    "{[{1}]}" -> "{[{1}]}" [label="y "];
+    "{[{4}]}" -> "{[{1}]}" [label="x "];
+    "{[{1}]}" -> "{[{3}]}" [label="x "];
+    "{[{4}]}" -> "{[{1}]}" [label="y "];
+    "{[{4}]}" -> "{[{3}]}" [label="y "];
+    "{[{3}]}" -> "{[{3}]}" [label="x "];
+}

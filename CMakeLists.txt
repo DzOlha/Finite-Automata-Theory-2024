@@ -9,3 +9,4 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -static -static-libgcc -static-libstdc++
 # Add subdirectories
 add_subdirectory(regex-to-nfa)
 add_subdirectory(regex-to-mealy)
+add_subdirectory(regex-to-buchi)
