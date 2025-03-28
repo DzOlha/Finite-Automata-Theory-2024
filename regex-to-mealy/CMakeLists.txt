@@ -14,7 +14,7 @@ file(GLOB_RECURSE SOURCES ./src/*.cpp)
 add_executable(RegexToMealyExecutable ${SOURCES}
         main.cpp)
 
-# Include directories for lab-8
+# Include directories
 target_include_directories(RegexToMealyExecutable PRIVATE
         ./include
 )

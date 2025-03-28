@@ -1,4 +1,4 @@
-# Mealy Automaton Synthesis from from Regular Expressions
+# Mealy Automaton Synthesis from Regular Expressions
 
 ## Overview
 This repository contains code for synthesizing a **Mealy Automaton** from a given regular expression. The supported operations include:
@@ -15,7 +15,7 @@ The implemented algorithm parses the regular expression and constructs an equiva
 - **Recursive parsing** of regular expressions
 - **Conversion to a Mealy Automaton** with a state-transition representation
 - **Epsilon transitions handling**
-- **Graph visualization support**
+- **Graph visualization support** provided by https://github.com/d1mmm
 
 ### Example Regex Conversions
 #### #1 Regex: `([x/a][x/b])*[y/c]|[x/d]*|[x/a][x/c]`

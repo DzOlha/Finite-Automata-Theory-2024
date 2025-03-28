@@ -1,5 +1,5 @@
 //
-// Created by dima on 17.09.24.
+// Created by dima on 17.09.24 (https://github.com/d1mmm)
 //
 
 #include <visualizer/AutomatonVisualizer.h>

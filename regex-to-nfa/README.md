@@ -14,7 +14,7 @@ The implemented algorithm parses the regular expression and constructs an equiva
 - **Recursive parsing** of regular expressions
 - **Conversion to an NFA** with a state-transition representation
 - **Epsilon transitions handling**
-- **Graph visualization support**
+- **Graph visualization support** provided by https://github.com/d1mmm
 
 ### Example Regex Conversions
 #### #1 Regex: `(x|y)*x|x*y*`
